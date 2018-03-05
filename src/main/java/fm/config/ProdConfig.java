@@ -4,6 +4,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
 @Configuration
-@Import({AppConfig.class, WebConfig.class, DatabaseConfig.class})
+@Import({AppConfig.class, DatabaseConfig.class})
 public class ProdConfig {
 }

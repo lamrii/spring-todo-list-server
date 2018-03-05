@@ -9,7 +9,7 @@ public class ServletDispatcherConfig extends AbstractAnnotationConfigDispatcherS
     @Nullable
     @Override
     protected Class<?>[] getRootConfigClasses() {
-        return new Class[] {AppConfig.class};
+        return new Class[] {ProdConfig.class};
     }
 
     @Nullable
